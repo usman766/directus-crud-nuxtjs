@@ -224,7 +224,7 @@ const formRules: FormRules = {
   ],
   phone: [
     { required: true, message: 'Please enter the phone number', trigger: 'blur' },
-    { pattern: /^[\+]?[1-9][\d]{0,15}$/, message: 'Please enter a valid phone number', trigger: 'blur' }
+    { message: 'Please enter a valid phone number', trigger: 'blur' }
   ],
   bio: [
     { required: true, message: 'Please enter a bio', trigger: 'blur' },
