@@ -63,11 +63,7 @@
         <el-divider>Demo Credentials</el-divider>
         <p><strong>Admin User:</strong></p>
         <p>Email: admin@example.com</p>
-        <p>Password: admin123</p>
-        <el-divider />
-        <p><strong>Regular User:</strong></p>
-        <p>Email: user@example.com</p>
-        <p>Password: user123</p>
+        <p>Password: admin</p>
       </div>
     </el-card>
   </div>
