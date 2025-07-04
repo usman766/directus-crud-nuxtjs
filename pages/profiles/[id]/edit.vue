@@ -314,7 +314,8 @@ const handleSubmit = async () => {
       phone: formData.phone,
       bio: formData.bio,
       role: formData.role,
-      avatar: avatarUrl
+      ...(formData.avatar ? { avatar: avatarUrl } : {}) 
+
     }
 
     await updateProfile(profileId, profileData)
